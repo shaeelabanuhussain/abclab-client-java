@@ -1,3 +1,8 @@
+<%@page import="com.db.DBConnect" %>
+<%@page import="java.sql.Connection" %>
+
+
+
 <html>
     <head>
       <style>
@@ -144,6 +149,7 @@
    </head>
 <body>
     <%@ include file="component/navbar.jsp" %> 
+    
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -213,104 +219,7 @@
         </div>
         </div>
 
-      <!-- <div class="appointment-banner"> <p class="banner-title text-center fs-2">How to Book an Appointment</p>
-        <div class="step-container">  <div class="step">
-            <span class="step-number">1</span> <h2>Choose Your Test</h2>
-            <p>Select the specific test you need to book an appointment for.</p>
-          </div>
-          <div class="step">
-            <span class="step-number">2</span>
-            <h2>Select Date & Time</h2>
-            <p>Pick a convenient date and time for your medical test.</p>
-          </div>
-          <div class="step">
-            <span class="step-number">3</span>
-            <h2>Confirmation</h2>
-            <p>Receive a confirmation and prepare for your appointment.</p>
-          </div>
-        </div>
-      </div> -->
-
-      <!-- <div class="custom-banner">
-        <h1>How to Book an Appointment</h1>
-        <p>Follow these simple steps to schedule your medical test:</p>
-      </div>
-     -->
-     <!-- <div class="bannerr">
-      <p class="text-center fs-2">How to book an appointment</p>
-      <div class="baner">
-          <div class="step">
-              <h1>Step 1</h1>
-              <h2>Choose Your Test</h2>
-              <p>Select the specific test you need to book an appointment for.</p>
-          </div>
-          <div class="step">
-              <h1>Step 2</h1>
-              <h2>Select Date & Time</h2>
-              <p>Pick a convenient date and time for your medical test.</p>
-          </div>
-          <div class="step">
-              <h1>Step 3</h1>
-              <h2>Confirmation</h2>
-              <p>Receive a confirmation and prepare for your appointment.</p>
-          </div>
-      </div>
-    </div> -->
-
-      <!-- <div style="text-align: center;">
-        <h1>Appointment Booking</h1>
-        <hr>
-        <div style="display: flex; justify-content: space-between;">
-            <div style="flex: 1;">
-                <h2>1. Choose Your Test</h2>
-                <p>Select the specific test you need to book an appointment.</p>
-            </div>
-            <div style="flex: 1;">
-                <h2>2. Select Date & Time</h2>
-                <p>Pick a convenient date and time for your medical test.</p>
-            </div>
-            <div style="flex: 1;">
-                <h2>3. Confirmation</h2>
-                <p>Receive a confirmation and prepare for your appointment.</p>
-            </div>
-        </div>
-    </div> -->
-<!-- 
-      <div class="banner">
-        <div class="step">
-          <h1>Step 1</h1>
-          <h2>Choose your test</h2>
-          <p>Select the specific test you need to book an appointment for.</p>
-        </div>
-        <div class="step">
-          <h1>Step 2</h1>
-          <h2>Select Date & Time</h2>
-          <p>Pick a convenient date and time for your medical test.</p>
-        </div>
-        <div class="step">
-          <h1>Step 3</h1>
-          <h2>Confirmation</h2>
-          <p>Receive a confirmation and prepare for your appointment.</p>
-        </div>
-      </div> -->
-
       
-
-
-      <!-- <div class="container p-3">
-        <p class="text-center fs-2" Key Features of our Lab ></p>
-        <div class="row">
-          <div class="col-md-8 p-5">
-            <div class="col-md-6">
-              <div class="card paint-card">
-                <div class="card-body">
-                  <p class="fs-5">100% safety</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> -->
  <br>   
 <%@ include file="component/footer.jsp" %>   
 </body>
